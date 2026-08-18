@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #222;
+    width: 75%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Name */
+h1 {
+    text-align: center;
+    color: #1f4e79;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+/* Section headings */
+h2 {
+    color: #1f4e79;
+    border-left: 5px solid #1f4e79;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* About Me */
+h2 + p {
+    text-align: justify;
+}
+
+/* Education */
+p {
+    margin: 8px 0;
+}
+
+/* Skills list */
+ul {
+    background-color: #f5f7fa;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+
+li {
+    padding: 6px;
+    font-size: 16px;
+}
+
+/* Horizontal lines */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #1f4e79;
+    margin: 15px 0;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #003d80;
+}
+
+/* Contact section */
+h2:last-of-type {
+    margin-bottom: 10px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    body {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
